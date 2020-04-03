@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <!-- Pour insérer un commentaire shift+cmd+slash -->
+    <!-- HEAD ceci est le nom de ma page et toutes les propriétés de la page -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Exemples</title>
+
+        <link rel="stylesheet" href="mini-default.min.css">
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="print.css" media="print">
+    </head>
+
+    <!-- BODY ici, mon contenu de ma page, ce que j'y note (ce qui est visible) -->
+
+    <body>
+
+        <!-- h1, h2, h3, ... pour les titres -->
+        <h1>Titre principal</h1>
+        <h2>Titre important</h2>
+        <h3>Sous-titre</h3>
+
+        <h4>Titre pas important</h4>
+        <h5>Titre encore moins important</h5>
+        <h6>Titre on s'en fou</h6>
+
+    <!-- <p> ouvre un paragraphe et </p> ferme ce paragraphe -->
+        <p>Bonjour et bienvenue sur mon site</p>
+
+    <!-- <em>  <em/> pour mettre en évidence un mot ou groupe de mots -->
+        <p>
+            Pour l'instant c'est un peu <em>vide.</em> 
+
+    <!-- <br> </br> pour aller à la ligne (plus grande interligne) -->
+    <!-- <strong> </strong> pour mettre aussi en évidence un mot ou groupe de mots -->
+            <br>J'apprends <strong> petit à petit </strong> comment cela marche.
+        </p>
+    
+    <!-- <mark> </mark> pour mettre encore en évidence un mot en surlignage  -->
+        <p> <mark>Soyez indulgent</mark> </p>
+
+
+        <h2 id="cuisine">Les professions</h2>
+    <!-- <ul> pour des points (désordonné), pour toute la liste de puces puis <li> pour les puces -->
+        <ul>
+            <li>un boucher</li>
+            <li>un boulanger</li>
+            <li>un poisonnier</li>
+            <li>un pâtissier</li>
+        </ul>
+
+
+        <h2>La santé</h2>
+    <!-- <ol> pour des chiffres (ordonné), pour toute la liste de puces puis <li> pour les puces -->
+        <ol>
+            <li>Il masse et rééduque le corps.</li>
+            <li>Il examine et soigne les yeux.</li>
+            <li>Il soigne les dents.</li>
+            <li>Chez lui, on achète les médicaments.</li>
+            <li>Elle donne des soins et fait des piqûres.</li>
+            <li>Il fait passer les radios, puis les interprète.</li>
+            <li>Elle pratique la rééducation de la parole et du langage.</li>
+            <li>Il soigne le coeur et les vaisseaux.</li>
+            <li>Il soigne les maladies en générale.</li>
+            <li>Il soigne les enfants.</li>
+            <li>Il soigne le nez, la gorge et les oreilles.</li>
+            <li>Il soigne les maladies de la peau.</li>
+        </ol>
+
+    <!-- <a href="le site"> </a> pour insérer un lien web -->
+        <h2>Créer des liens web</h2>
+        <p>Bonjour, vous souhaitez visiter 
+            <a href="https://openclassrooms.com"> OpenClassrooms</a>? <br>
+            C'est un bon site 
+        </p>
+
+    <!-- Un lien vers une ancre pour retrouver une page ailleurs     -->
+        <h2>Créer des liens vers une ancre</h2>
+
+        <p>
+            Aller directement à la partie traitant de : <br>
+            <a href="#cuisine">La cuisine</a><br>
+            <a href="#rollers">Les rollers</a><br>
+            <a href="#arc">Le tir à l'arc</a><br>
+        </p>
+
+    <!-- balise avec l'attribut id="" trop compliqué à mettre -->
+       
+    
+    <!-- Je survole un lien, une infobulle apparait sur ce lien  -->
+        <h2>Mettre une infobulle au survol d'un lien web</h2>
+
+        <p>
+            Bonjour, souhaitez-vous visiter <a href="https://openclassrooms.com" 
+        title="Vous ne le regretterez pas !" target="_blank" 
+            >OpenClassrooms</a>?
+        </p>
+
+    <!-- J'insère une image .jpg dans mon texte -->
+        <h2>J'insère une image .jpg dans mon texte</h2>
+
+        <p>
+            Je suis : <br>
+
+            <ul>
+                <li>DENTISTE</li>
+                <li>PHARMACIEN</li>
+                <li>CARDIOLOGUE</li>
+                <li>OTO-RHINO-LARYNGOLOGISTE</li>
+                <li>INFIRMIER</li>
+                <li>ORTHOPHONISTE</li>
+                <li>MEDECIN</li>
+                <li>PEDIATRE</li>
+                <li>RADIOLOGUE</li>
+                <li>DERMATOLOGUE</li>
+                <li>KINESITHERAPEUTE</li>
+                <li>OPHTALMOLOGISTE</li>            
+            </ul>
+        </p>
+
+    <!-- Les images -->
+
+        <p>
+            Voici une image qui correspond aux différentes professions : <br>
+            <img src="001.jpg" alt="Le jeu du LOGO et des marques">
+
+        </p>
+
+
+        <table>
+            <tr>
+                <th>Poissons</th>
+                <th>Poissons</th>
+                <th>Poissons</th>
+            </tr>
+            <tr>
+                <td><textarea name="" id="" cols="25" rows="10"></textarea></td>
+                <td><textarea name="" id="" cols="25" rows="10"></textarea></td>
+                <td><textarea name="" id="" cols="25" rows="10"></textarea></td>
+            </tr>
+        </table>
+
+        <p>Rage = <input type="text"></p>
+        <p>Cabane = <input type="text"></p>
+
+        <p><strong>Il vend des gateaux</strong></p>
+        <ul>
+            <li><input type="checkbox" disabled> un boucher</li>
+            <li><input type="checkbox" disabled> un boulanger</li>
+            <li><input type="checkbox" disabled> un poissonnier</li>
+            <li><input type="checkbox" checked> un patissier</li>
+        </ul>
+        <ul>
+            <li><input type="radio" name="profession"> un boucher</li>
+            <li><input type="radio" name="profession"> un boulanger</li>
+            <li><input type="radio" name="profession"> un poissonnier</li>
+            <li><input type="radio" name="profession" checked> un patissier</li>
+        </ul>
+
+        <input type="password" name="" id="" value="bon">
+        <input type="text" name="" id="" value="bonjour">
+        <input type="checkbox" name="" id="">
+        <input type="number">
+        <input type="range">
+        <input type="button" name="" id="" value="Clicker ici">
+
+        <p>
+            Vous preferez: <br>
+            <input type="radio" name="animaux"> Un chat
+            <input type="radio" name="animaux"> Un e
+            <input type="radio" name="animaux"> Un t
+        </p>
+
+        <p>
+            Madame rose telephone a son amie madame tile. Les voisins se joindront aussi à <input type="text" value="eux">. Ils prendront tous le <input type="text" value="café">
+        </p>
+
+        <!-- Demarrage du tableau -->
+        <table>
+            <!-- tr est une ligne -->
+            <tr>
+                <!-- td est une colonne -->
+                <td>Une che<input type="text" size="3" value="mi">née</td>
+                <td>Un rec<input type="text" size="3">gle</td>
+            </tr>
+            <tr>
+                <td>Un ra<input type="text" size="3">teur</td>
+                <td>La vio<input type="text" size="3">ce</td>
+            </tr>
+        </table>
+
+        <img src="images/loto-imagier-animal-01-araignee.jpg" alt="">
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

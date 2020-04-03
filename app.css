@@ -1,0 +1,68 @@
+html {
+    font-size: 1.5rem;
+}
+
+body {
+    padding: 20px;
+}
+
+input, textarea {
+    font-size: 1rem;
+    text-align: center;
+}
+
+table {
+    max-height: none !important;
+}
+
+table tbody {
+    border: 2px solid;
+}
+
+table td {
+    border-right: 2px solid;
+    border-color: inherit;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+.ligne {
+    display: flex;
+}
+
+.colonne {
+    flex: 1;
+    margin: 0.4rem;
+}
+
+.colonne-espace {
+    border: 2px solid;
+    margin: 1rem;
+}
+
+.colonne:first-child {
+    margin-left: 0;
+}
+
+.colonne:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    margin-top: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.court {
+    width: 60px;
+
+}

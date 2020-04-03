@@ -1,0 +1,21 @@
+@page {
+    margin: 0;
+}
+
+html {
+    font-size: 0.75rem;
+    padding: 2rem;
+}
+
+input {
+    height: 2rem;
+}
+
+table td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.footer {
+    display: none;
+}
