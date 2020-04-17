@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je trouve / Le nom / Complètements de phrases 02</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+    <style>
+        input {
+            width: 200px;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 0.3;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Je trouve / Le nom / Complètements de phrases 02</h1>
+
+    <p><strong>Je retrouve le nom correspondant à la phrase :</strong></p>
+
+<!-- shift+cmd+slash pour le commentaire-->
+
+<!-- je vois 2 colonnes= td et 3 lignes=tr -->
+<!-- dans chaque ligne=tr il y aura donc 2 colonnes=td -->
+<!-- 1ère colonne=td les noms -->
+<!-- 2ème colonne=td les phrases -->
+<!-- les  colonnes=td se trouvant dans 1 ligne=tr -->
+<!-- j'ai ajouté des br pour faire correspondre les noms devant les phrases -->
+
+<!-- la ligne=tr avec les 2 colonnes = th sont pour les intitulés en gras en haut du tableau
+
+-->
+    <table>
+        <tr>
+            <th>les noms</th>
+            <th>complètez les phrases avec le nom correspondant :</th>
+        </tr>
+        <tr>
+            <td>
+                <p>annuler<br><br></p>
+                <p>rayer<br><br></p>
+                <p>décommander<br><br></p>
+                <p>barrer</p>
+            </td>
+            <td>
+                <p>Il faut <input type="text" value="rayer"> la mention inutile.</p>
+                <p>Le voyage est <input type="text" value="annulé"> en raison du mauvais temps.</p>
+                <p>Ils ne viendront pas, il faut <input type="text" value="décommander"> le gâteau.</p>
+                <p>Ils ont <input type="text" value="barré"> la route en raison des travaux.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>s'habiller<br><br></p>
+                <p>enfiler<br><br></p>
+                <p>porter<br><br></p>
+                <p>se déguiser</p>
+            </td>
+            <td>
+                <p>Il <input type="text" value="enfile"> son pantalon avant de descendre.</p>
+                <p>Les enfants aiment <input type="text" value="se déguiser"> pour mardi gras.</p>
+                <p>Elle est élégante, elle <input type="text" value="s'habille"> vraiment bien.</p>
+                <p>Ce jour-là, elle <input type="text" value="porte"> un tailleur violet.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>enseigner<br><br></p>
+                <p>renseigner<br><br></p>
+                <p>conseiller<br><br></p>
+                <p>expliquer</p>
+            </td>
+            <td>
+                <p>Un ami m'a <input type="text" value="conseillé"> d'aller voir ce médecin.</p>
+                <p>Ce professeur <input type="text" value="enseigne"> la géographie.</p>
+                <p>Pouvez-vous nous <input type="text" value="renseigner"> car nous sommes perdus.</p>
+                <p>Pouvez-vous nous <input type="text" value="expliquer"> nous n'avons pas compris.</p>
+            </td>
+        </tr>
+
+    </table>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

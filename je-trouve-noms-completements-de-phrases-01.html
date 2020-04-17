@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je trouve / Le nom / Complètements de phrases 01</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+    <style>
+        input {
+            width: 200px;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 0.3;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Je trouve / Le nom / Complètements de phrases 01</h1>
+
+    <p><strong>Je retrouve le nom correspondant à la phrase :</strong></p>
+
+<!-- shift+cmd+slash pour le commentaire-->
+
+<!-- je vois 2 colonnes= td et 3 lignes=tr -->
+<!-- dans chaque ligne=tr il y aura donc 2 colonnes=td -->
+<!-- 1ère colonne=td les noms -->
+<!-- 2ème colonne=td les phrases -->
+<!-- les  colonnes=td se trouvant dans 1 ligne=tr -->
+<!-- j'ai ajouté des br pour faire correspondre les noms devant les phrases -->
+
+<!-- la ligne=tr avec les 2 colonnes = th sont pour les intitulés en gras en haut du tableau
+
+-->
+    <table>
+        <tr>
+            <th>les noms</th>
+            <th>complètez les phrases avec le nom correspondant :</th>
+        </tr>
+        <tr>
+            <td>
+                <p>enjamber<br><br></p>
+                <p>cogner<br><br></p>
+                <p>glisser<br><br></p>
+                <p>déraper</p>
+            </td>
+            <td>
+                <p>Il a <input type="text" value="glissé"> sur le sol gelé.</p>
+                <p>La chaussée était mouillée, la voiture a<input type="text" value="dérapée">.</p>
+                <p>La grille était fermée, il l'a <input type="text" value="enjambée">.</p>
+                <p>M. DURAND s'est <input type="text" value="cogné"> contre la porte.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>se disputer<br><br></p>
+                <p>chuchoter<br><br></p>
+                <p>hurler<br><br></p>
+                <p>discuter</p>
+            </td>
+            <td>
+                <p>Quand Paul aperçoit une araignée, il se met à <input type="text" value="hurlé">.</p>
+                <p>Jacques m'a <input type="text" value="chuchoté"> quelques mots à l'oreille.</p>
+                <p>Ils ne s'entendent pas très bien, ils se <input type="text" value="disputent"> sans arrêt.</p>
+                <p>En buvant un café, nous avons <input type="text" value="discuté">.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>porter<br><br></p>
+                <p>soulever<br><br></p>
+                <p>déplacer<br><br></p>
+                <p>tirer</p>
+            </td>
+            <td>
+                <p>Il faut <input type="text" value="porté"> cette plante, cet endroit est trop sombre.</p>
+                <p>Je <input type="text" value="soulève"> la valise, et toi, prends ce sac.</p>
+                <p>La voiture <input type="text" value="tire"> la caravane.</p>
+                <p>Il faut <input type="text" value="déplacé"> le tapis.</p>
+            </td>
+        </tr>
+
+    </table>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
