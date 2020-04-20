@@ -21,7 +21,7 @@ table tbody {
 
 table td {
     border-right: 2px solid;
-    border-color: inherit;
+    border-color: rgb(17, 17, 17);
 }
 
 table td:last-child {
@@ -70,4 +70,28 @@ textarea {
 .gras {
     font-weight: bold;
 
+}
+
+.mots-caches .reponse {
+    position: relative;
+}
+
+.mots-caches .reponse.reponse-verticale::before {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 50%;
+    background-color: black;
+    width: 1px;
+}
+
+.mots-caches .reponse.reponse-horizontale::after {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 50%;
+    background-color: black;
+    bottom: 48%;
 }

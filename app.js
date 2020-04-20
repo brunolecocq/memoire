@@ -10,6 +10,10 @@
         document.querySelectorAll("textarea").forEach(function (e) {
             e.innerText = "";
         });
+
+        document.querySelectorAll(".mots-caches .reponse").forEach(function (e) {
+            e.className = "";
+        });
     }
 
     var corrige = document.createElement("div");
