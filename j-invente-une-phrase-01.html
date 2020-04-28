@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'invente / Une phrase 01</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+        <!-- mettre "width" en % a lieu d'en pixel = pour avoir la case adaptée à la réponse -->
+    <style>
+
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 0.4;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>J'invente / Une phrase 01</h1>
+   
+           <p>J'invente une phrase à partir de 2 mots proposés :</p>
+           <br>
+
+
+           <table>
+
+            <tr>
+                <td> montre - pile </td>
+
+                <td> <input type="text" value="la montre s’est arrêtée, je vais changer la pile"> </td>
+            </tr>
+
+            <tr>
+                <td> valise - vacances </td>
+
+                <td> <input type="text" value="je vais boucler les valises pour aller en vacances"> </td>
+            </tr>
+
+            <tr>
+                <td> herbe - tondeuse </td>
+
+                <td> <input type="text" value="l’herbe a poussé, il faudra passer la tondeuse"> </td>
+            </tr>
+
+            <tr>
+                <td> supermarché - courses </td>
+
+                <td> <input type="text" value="pour faire des courses, il faudra aller au supermarché"> </td>
+            </tr>
+
+            <tr>
+                <td> cinéma - amis </td>
+
+                <td> <input type="text" value="avec des amis, on pourra aller au cinéma"> </td>
+            </tr>
+
+            <tr>
+                <td> chat - dehors </td>
+
+                <td> <input type="text" value="le chat s’est sauvé dehors"> </td>
+            </tr>
+
+            <tr>
+                <td> fleurs - jardinières </td>
+
+                <td> <input type="text" value="c’est le printemps, je vais mettre des fleurs dans les jardinières"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+
+        </table>
+        
+                  
+
+    <script src="app.js"></script>
+</body>
+</html>
