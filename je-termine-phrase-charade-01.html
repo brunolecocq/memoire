@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je termine / La phrase / Charade 01</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+    <style>
+        input {
+            width: 200px;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 1;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Je termine / La phrase / Charade 01</h1>
+
+    <p><strong>Je retrouve le nom en fin de chaque phrase :</strong></p>
+    <p><strong>J'associe chaque nom trouvé pour constituer une CHARADE :</strong></p>
+    <p><strong>EXPRESSION LIBRE : J'essaye d'inventer 2 nouvelles CHARADEs :</strong></p> 
+
+<!-- shift+cmd+slash pour le commentaire-->
+
+<!-- je vois 2 colonnes= td et 3 lignes=tr -->
+<!-- dans chaque ligne=tr il y aura donc 2 colonnes=td -->
+<!-- 1ère colonne=td les noms -->
+<!-- 2ème colonne=td les phrases -->
+<!-- les  colonnes=td se trouvant dans 1 ligne=tr -->
+<!-- j'ai ajouté des br pour faire correspondre les noms devant les phrases -->
+
+<!-- la ligne=tr avec les 2 colonnes = th sont pour les intitulés en gras en haut du tableau
+
+-->
+    <table>
+        <tr>
+            <th>CHARADES :</th>
+            <th>01</th>
+        </tr>
+
+        <tr>
+            <td>
+                <p>mon premier attrape les souris <input type="text" value="chat">.</p>
+                <p>la vache nous donne mon deuxième <input type="text" value="lait">.</p>
+                <br>
+                <p>mon tout est une maison en bois à la montagne <input type="text" value="chalet">.</p>
+            </td>
+
+            <td>
+                <p>les dents de mon premier mordent les planches <input type="text" value="scie">.</p>
+                <p>mon deuxième est une partie de l’arbre <input type="text" value="tronc">.</p>
+                <br>
+                <p>mon tout est un fruit jaune et acide <input type="text" value="citron">.</p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>mon premier est un animal qui fait la roue <input type="text" value="paon">.</p>
+                <p>mon deuxième est la planète où nous vivons <input type="text" value="terre">.</p>
+                <br>
+                <p>mon tout est un fauve <input type="text" value="panthère">.</p>
+            </td>
+
+            <td>
+                <p>le boulanger vends mon premier <input type="text" value="pain">.</p>
+                <p>mon deuxième sert à transporter l’eau et le sable <input type="text" value="seau">.</p>
+                <br>
+                <p>mon tout sert à peindre <input type="text" value="pinceau">.</p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>mon premier est égal à 7 + 3 <input type="text" value="10">.</p>
+                <p>mon deuxième est en panache pour l'écureuil <input type="text" value="queue">.</p>
+                <br>
+                <p>mon tout me permet d'écouter des chansons <input type="text" value="disque">.</p>
+            </td>
+
+            <td>
+                <p>il faut mon premier pour jouer au tennis <input type="text" value="balle">.</p>
+                <p>on tricote mon deuxième <input type="text" value="laine">.</p>
+                <br>
+                <p>mon tout est un énorme animal <input type="text" value="baleine">.</p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p>mon premier est <input type="text" value="______">.</p>
+                <p>mon deuxième est <input type="text" value="_____">.</p>
+                <br>
+                <p>mon tout est <input type="text" value="___________">.</p>
+            </td>
+
+            <td>
+                <p>mon premier est <input type="text" value="______">.</p>
+                <p>mon deuxième est <input type="text" value="_____">.</p>
+                <br>
+                <p>mon tout est <input type="text" value="___________">.</p>
+            </td>
+        </tr>
+
+    </table>
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
