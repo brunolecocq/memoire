@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'invente / Une phrase 03</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+        <!-- mettre "width" en % a lieu d'en pixel = pour avoir la case adaptée à la réponse -->
+    <style>
+
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 0.4;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>J'invente / Une phrase 03</h1>
+   
+           <p>J'invente une phrase à partir de 2 mots proposés :</p>
+           <br>
+           
+                 
+           
+           <table>
+
+            <tr>
+                <td> danser - dimanche </td>
+
+                <td> <input type="text" value="j’amène ma femme danser le dimanche après-midi"> </td>
+            </tr>
+
+            <tr>
+                <td> manger - restaurant </td>
+
+                <td> <input type="text" value="je vais aller au restaurant avec mes enfants pour manger un bon couscous"> </td>
+            </tr>
+
+            <tr>
+                <td> voisin - arbre </td>
+
+                <td> <input type="text" value="mes voisins m’embêtent avec les arbres à tailler"> </td>
+            </tr>
+
+            <tr>
+                <td> voyager - vacances </td>
+
+                <td> <input type="text" value="aux prochaines vacances, j’aimerais aller voyager au soleil"> </td>
+            </tr>
+
+            <tr>
+                <td> frère - téléphone </td>
+
+                <td> <input type="text" value="mon frère ne me téléphone jamais, il préfère boire un verre"> </td>
+            </tr>
+
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+
+
+        </table>
+
+
+        <script src="app.js"></script>
+</body>
+</html>

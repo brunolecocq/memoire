@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'invente / Une phrase 02</title>
+
+    <link rel="stylesheet" href="mini-default.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
+        <!-- mettre "width" en % a lieu d'en pixel = pour avoir la case adaptée à la réponse -->
+    <style>
+
+        input {
+            width: 100%;
+            height: 50px;
+        }
+
+        table td:first-child {
+            flex: 0.4;
+        }
+
+        @media print {
+            input {
+                width: 100px;
+                height: 30px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>J'invente / Une phrase 02</h1>
+   
+           <p>J'invente une phrase à partir de 2 mots proposés :</p>
+           <br>
+           
+           
+           <table>
+
+            <tr>
+                <td> dimanche - voter </td>
+
+                <td> <input type="text" value="dimanche prochain on va voter"> </td>
+            </tr>
+
+            <tr>
+                <td> peinture - mur </td>
+
+                <td> <input type="text" value="on achète de la peinture pour rénover les murs"> </td>
+            </tr>
+
+            <tr>
+                <td> voiture - essence </td>
+
+                <td> <input type="text" value="j’ai une voiture qui consomme assez peu d’essence"> </td>
+            </tr>
+
+            <tr>
+                <td> chocolat - malade </td>
+
+                <td> <input type="text" value="si le chocolat est bon pour les enfants et les grands, il est un poison pour les chiens"> </td>
+            </tr>
+
+            <tr>
+                <td> vache - pâture </td>
+
+                <td> <input type="text" value="avec les beaux jours, les vaches vont dans la pâture"> </td>
+            </tr>
+
+
+            <tr>
+                <td> rire - enfants </td>
+
+                <td> <input type="text" value="les rires des enfants sont très agréables à entendre"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+            <tr>
+                <td> _______ - ________ </td>
+
+                <td> <input type="text" value="__________________________________________"> </td>
+            </tr>
+
+
+
+        </table>
+
+
+        <script src="app.js"></script>
+</body>
+</html>
