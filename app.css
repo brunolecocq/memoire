@@ -1,9 +1,72 @@
+@font-face {
+    font-family: 'Boite pleine';
+    src: url('fonts/bvboitepleine.eot');
+    src: url('fonts/bvboitepleine.eot?#iefix') format('embedded-opentype'),
+        url('fonts/bvboitepleine.woff2') format('woff2'),
+        url('fonts/bvboitepleine.woff') format('woff'),
+        url('fonts/bvboitepleine.ttf') format('truetype'),
+        url('fonts/bvboitepleine.svg#bvboitepleine') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boite vide';
+    src: url('fonts/Boitevide.eot');
+    src: url('fonts/Boitevide.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Boitevide.woff2') format('woff2'),
+        url('fonts/Boitevide.woff') format('woff'),
+        url('fonts/Boitevide.ttf') format('truetype'),
+        url('fonts/Boitevide.svg#Boitevide') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cursive standard';
+    src: url('fonts/Cursivestandard.eot');
+    src: url('fonts/Cursivestandard.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Cursivestandard.woff2') format('woff2'),
+        url('fonts/Cursivestandard.woff') format('woff'),
+        url('fonts/Cursivestandard.ttf') format('truetype'),
+        url('fonts/Cursivestandard.svg#Cursivestandard') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cursive_standardregular';
+    src: url('fonts/cursive_standard-webfont.woff2') format('woff2'),
+         url('fonts/cursive_standard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 1.5rem;
 }
 
+html * {
+    font-family: 'Cursive standard', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', cursive, sans-serif;
+}
+
 body {
+    --font-size: 1.3rem;
+
     padding: 20px;
+    padding-top: 100px;
+    background-color: white;
+    background-image: url(images/ressorts.png);
+    background-repeat: repeat-x;
+    font-size: var(--font-size);
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: var(--font-size);
 }
 
 input, textarea {
@@ -94,4 +157,8 @@ textarea {
     top: 50%;
     background-color: black;
     height: 1px;
+}
+
+.logo {
+    width: 500px;
 }
