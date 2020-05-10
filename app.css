@@ -65,6 +65,11 @@ h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.police-mots-caches * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     font-size: var(--font-size);
 }
